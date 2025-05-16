@@ -33,6 +33,7 @@ const client = new MongoClient(uri);
             location: "Malibu",
             country: "United States",
             category: "mountains",
+            owner: "680a464c0e5db39cda10bda8"
           },
           {
             title: "Modern Loft in Downtown",
@@ -46,6 +47,7 @@ const client = new MongoClient(uri);
             location: "New York City",
             country: "United States",
             category: "mountains",
+            owner: "680a464c0e5db39cda10bda8"
            
           },
           {
@@ -60,7 +62,7 @@ const client = new MongoClient(uri);
             location: "Aspen",
             country: "United States",
             category: "mountains",
-           
+           owner: "680a464c0e5db39cda10bda8"
           },
           {
             title: "Historic Villa in Tuscany",
@@ -74,6 +76,7 @@ const client = new MongoClient(uri);
             location: "Florence",
             country: "Italy",
             category: "camping",
+            owner: "680a464c0e5db39cda10bda8"
             
           },
           {
@@ -88,7 +91,7 @@ const client = new MongoClient(uri);
             location: "Portland",
             country: "United States",
             category: "camping",
-            
+            owner: "680a464c0e5db39cda10bda8"
           },
           {
             title: "Beachfront Paradise",
@@ -102,7 +105,7 @@ const client = new MongoClient(uri);
             location: "Cancun",
             country: "Mexico",
             category: "camping",
-           
+           owner: "680a464c0e5db39cda10bda8"
           },
           {
             title: "Rustic Cabin by the Lake",
@@ -116,7 +119,7 @@ const client = new MongoClient(uri);
             location: "Lake Tahoe",
             country: "United States",
             category: "camping",
-           
+           owner: "680a464c0e5db39cda10bda8"
           },
           {
             title: "Luxury Penthouse with City Views",
@@ -130,7 +133,7 @@ const client = new MongoClient(uri);
             location: "Los Angeles",
             country: "United States",
             category: "camping",
-            
+            owner: "680a464c0e5db39cda10bda8"
           },
           {
             title: "Ski-In/Ski-Out Chalet",
@@ -144,7 +147,7 @@ const client = new MongoClient(uri);
             location: "Verbier",
             country: "Switzerland",
             category: "amazing pools",
-            
+            owner: "680a464c0e5db39cda10bda8"
           },
           {
             title: "Safari Lodge in the Serengeti",
@@ -158,7 +161,7 @@ const client = new MongoClient(uri);
             location: "Serengeti National Park",
             country: "Tanzania",
             category: "amazing pools",
-            
+            owner: "680a464c0e5db39cda10bda8"
           },
           {
             title: "Historic Canal House",
@@ -172,7 +175,7 @@ const client = new MongoClient(uri);
             location: "Amsterdam",
             country: "Netherlands",
             category: "amazing pools",
-            
+            owner: "680a464c0e5db39cda10bda8"
           },
           {
             title: "Private Island Retreat",
@@ -186,7 +189,7 @@ const client = new MongoClient(uri);
             location: "Fiji",
             country: "Fiji",
             category: "amazing pools",
-            
+            owner: "680a464c0e5db39cda10bda8"
           },
           {
             title: "Charming Cottage in the Cotswolds",
@@ -200,7 +203,7 @@ const client = new MongoClient(uri);
             location: "Cotswolds",
             country: "United Kingdom",
             category: "amazing pools",
-            
+            owner: "680a464c0e5db39cda10bda8"
           },
           {
             title: "Historic Brownstone in Boston",
@@ -214,7 +217,7 @@ const client = new MongoClient(uri);
             location: "Boston",
             country: "United States",
             category: "amazing pools",
-           
+           owner: "680a464c0e5db39cda10bda8"
           },
           {
             title: "Beachfront Bungalow in Bali",
@@ -228,6 +231,7 @@ const client = new MongoClient(uri);
             location: "Bali",
             country: "Indonesia",
             category: "amazing pools",
+            owner : "680a464c0e5db39cda10bda8",
             
           },
           {
@@ -242,7 +246,7 @@ const client = new MongoClient(uri);
             location: "Banff",
             country: "Canada",
             category: "amazing pools",
-            
+            owner: "680a464c0e5db39cda10bda8"
           },
           {
             title: "Art Deco Apartment in Miami",
@@ -256,7 +260,7 @@ const client = new MongoClient(uri);
             location: "Miami",
             country: "United States",
             category: "trending",
-            
+            owner: "680a464c0e5db39cda10bda8"
           },
           {
             title: "Tropical Villa in Phuket",
@@ -270,7 +274,7 @@ const client = new MongoClient(uri);
             location: "Phuket",
             country: "Thailand",
             category: "trending",
-            
+            owner: "680a464c0e5db39cda10bda8"
           },
           {
             title: "Historic Castle in Scotland",
@@ -284,7 +288,7 @@ const client = new MongoClient(uri);
             location: "Scottish Highlands",
             country: "United Kingdom",
             category: "trending",
-          
+          owner: "680a464c0e5db39cda10bda8"
           },
           {
             title: "Desert Oasis in Dubai",
@@ -298,7 +302,7 @@ const client = new MongoClient(uri);
             location: "Dubai",
             country: "United Arab Emirates",
             category: "trending",
-            
+            owner: "680a464c0e5db39cda10bda8"
           },
           {
             title: "Rustic Log Cabin in Montana",
@@ -312,7 +316,7 @@ const client = new MongoClient(uri);
             location: "Montana",
             country: "United States",
             category: "trending",
-            
+            owner: "680a464c0e5db39cda10bda8"
           },
           {
             title: "Beachfront Villa in Greece",
@@ -326,7 +330,7 @@ const client = new MongoClient(uri);
             location: "Mykonos",
             country: "Greece",
             category: "trending",
-          
+          owner: "680a464c0e5db39cda10bda8"
           },
           {
             title: "Eco-Friendly Treehouse Retreat",
@@ -340,7 +344,7 @@ const client = new MongoClient(uri);
             location: "Costa Rica",
             country: "Costa Rica",
             category: "trending",
-            
+            owner: "680a464c0e5db39cda10bda8"
           },
           {
             title: "Historic Cottage in Charleston",
@@ -354,7 +358,7 @@ const client = new MongoClient(uri);
             location: "Charleston",
             country: "United States",
             category: "trending",
-           
+           owner: "680a464c0e5db39cda10bda8"
           },
           {
             title: "Modern Apartment in Tokyo",
@@ -368,7 +372,7 @@ const client = new MongoClient(uri);
             location: "Tokyo",
             country: "Japan",
             category: "Iconic Cities",
-            
+            owner: "680a464c0e5db39cda10bda8"
           },
           {
             title: "Lakefront Cabin in New Hampshire",
@@ -382,7 +386,7 @@ const client = new MongoClient(uri);
             location: "New Hampshire",
             country: "United States",
             category: "Iconic Cities",
-            
+            owner: "680a464c0e5db39cda10bda8"
           },
           {
             title: "Luxury Villa in the Maldives",
@@ -396,7 +400,7 @@ const client = new MongoClient(uri);
             location: "Maldives",
             country: "Maldives",
             category: "Iconic Cities",
-            
+            owner: "680a464c0e5db39cda10bda8"
           },
           {
             title: "Ski Chalet in Aspen",
@@ -410,7 +414,7 @@ const client = new MongoClient(uri);
             location: "Aspen",
             country: "United States",
             category: "Iconic Cities",
-           
+           owner: "680a464c0e5db39cda10bda8"
           },
           {
             title: "Secluded Beach House in Costa Rica",
@@ -424,10 +428,12 @@ const client = new MongoClient(uri);
             location: "Costa Rica",
             country: "Costa Rica",
             category: "Iconic Cities",
-            
+            owner: "680a464c0e5db39cda10bda8"
           },
         ];
+        
 
+        
          // Insert the documents into the specified collection        
          const p = await col.insertMany(sampleListings);
 

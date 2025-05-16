@@ -11,6 +11,7 @@ const sampleListings = [
     location: "Malibu",
     country: "United States",
     category: "mountains",
+    owner: "radhika"
   },
   {
     title: "Modern Loft in Downtown",
@@ -24,6 +25,7 @@ const sampleListings = [
     location: "New York City",
     country: "United States",
     category: "mountains",
+    owner: "radhika"
    
   },
   {
@@ -38,7 +40,7 @@ const sampleListings = [
     location: "Aspen",
     country: "United States",
     category: "mountains",
-   
+   owner: "radhika"
   },
   {
     title: "Historic Villa in Tuscany",
@@ -52,6 +54,7 @@ const sampleListings = [
     location: "Florence",
     country: "Italy",
     category: "camping",
+    owner: "radhika"
     
   },
   {
@@ -66,7 +69,7 @@ const sampleListings = [
     location: "Portland",
     country: "United States",
     category: "camping",
-    
+    owner: "radhika"
   },
   {
     title: "Beachfront Paradise",
@@ -80,7 +83,7 @@ const sampleListings = [
     location: "Cancun",
     country: "Mexico",
     category: "camping",
-   
+   owner: "radhika"
   },
   {
     title: "Rustic Cabin by the Lake",
@@ -94,7 +97,7 @@ const sampleListings = [
     location: "Lake Tahoe",
     country: "United States",
     category: "camping",
-   
+   owner: "radhika"
   },
   {
     title: "Luxury Penthouse with City Views",
@@ -108,7 +111,7 @@ const sampleListings = [
     location: "Los Angeles",
     country: "United States",
     category: "camping",
-    
+    owner: "radhika"
   },
   {
     title: "Ski-In/Ski-Out Chalet",
@@ -122,7 +125,7 @@ const sampleListings = [
     location: "Verbier",
     country: "Switzerland",
     category: "amazing pools",
-    
+    owner: "radhika"
   },
   {
     title: "Safari Lodge in the Serengeti",
@@ -136,7 +139,7 @@ const sampleListings = [
     location: "Serengeti National Park",
     country: "Tanzania",
     category: "amazing pools",
-    
+    owner: "radhika"
   },
   {
     title: "Historic Canal House",
@@ -150,7 +153,7 @@ const sampleListings = [
     location: "Amsterdam",
     country: "Netherlands",
     category: "amazing pools",
-    
+    owner: "radhika"
   },
   {
     title: "Private Island Retreat",
@@ -164,7 +167,7 @@ const sampleListings = [
     location: "Fiji",
     country: "Fiji",
     category: "amazing pools",
-    
+    owner: "radhika"
   },
   {
     title: "Charming Cottage in the Cotswolds",
@@ -178,7 +181,7 @@ const sampleListings = [
     location: "Cotswolds",
     country: "United Kingdom",
     category: "amazing pools",
-    
+    owner: "radhika"
   },
   {
     title: "Historic Brownstone in Boston",
@@ -192,7 +195,7 @@ const sampleListings = [
     location: "Boston",
     country: "United States",
     category: "amazing pools",
-   
+   owner: "radhika"
   },
   {
     title: "Beachfront Bungalow in Bali",
@@ -220,7 +223,7 @@ const sampleListings = [
     location: "Banff",
     country: "Canada",
     category: "amazing pools",
-    
+    owner: "radhika"
   },
   {
     title: "Art Deco Apartment in Miami",
@@ -234,7 +237,7 @@ const sampleListings = [
     location: "Miami",
     country: "United States",
     category: "trending",
-    
+    owner: "radhika"
   },
   {
     title: "Tropical Villa in Phuket",
@@ -248,7 +251,7 @@ const sampleListings = [
     location: "Phuket",
     country: "Thailand",
     category: "trending",
-    
+    owner: "radhika"
   },
   {
     title: "Historic Castle in Scotland",
@@ -262,7 +265,7 @@ const sampleListings = [
     location: "Scottish Highlands",
     country: "United Kingdom",
     category: "trending",
-  
+  owner: "radhika"
   },
   {
     title: "Desert Oasis in Dubai",
@@ -276,7 +279,7 @@ const sampleListings = [
     location: "Dubai",
     country: "United Arab Emirates",
     category: "trending",
-    
+    owner: "radhika"
   },
   {
     title: "Rustic Log Cabin in Montana",
@@ -290,7 +293,7 @@ const sampleListings = [
     location: "Montana",
     country: "United States",
     category: "trending",
-    
+    owner: "radhika"
   },
   {
     title: "Beachfront Villa in Greece",
@@ -304,7 +307,7 @@ const sampleListings = [
     location: "Mykonos",
     country: "Greece",
     category: "trending",
-  
+  owner: "radhika"
   },
   {
     title: "Eco-Friendly Treehouse Retreat",
@@ -318,7 +321,7 @@ const sampleListings = [
     location: "Costa Rica",
     country: "Costa Rica",
     category: "trending",
-    
+    owner: "radhika"
   },
   {
     title: "Historic Cottage in Charleston",
@@ -332,7 +335,7 @@ const sampleListings = [
     location: "Charleston",
     country: "United States",
     category: "trending",
-   
+   owner: "radhika"
   },
   {
     title: "Modern Apartment in Tokyo",
@@ -346,7 +349,7 @@ const sampleListings = [
     location: "Tokyo",
     country: "Japan",
     category: "Iconic Cities",
-    
+    owner: "radhika"
   },
   {
     title: "Lakefront Cabin in New Hampshire",
@@ -360,7 +363,7 @@ const sampleListings = [
     location: "New Hampshire",
     country: "United States",
     category: "Iconic Cities",
-    
+    owner: "radhika"
   },
   {
     title: "Luxury Villa in the Maldives",
@@ -374,7 +377,7 @@ const sampleListings = [
     location: "Maldives",
     country: "Maldives",
     category: "Iconic Cities",
-    
+    owner: "radhika"
   },
   {
     title: "Ski Chalet in Aspen",
@@ -388,7 +391,7 @@ const sampleListings = [
     location: "Aspen",
     country: "United States",
     category: "Iconic Cities",
-   
+   owner: "radhika"
   },
   {
     title: "Secluded Beach House in Costa Rica",
@@ -402,7 +405,7 @@ const sampleListings = [
     location: "Costa Rica",
     country: "Costa Rica",
     category: "Iconic Cities",
-    
+    owner: "radhika"
   },
 ];
 

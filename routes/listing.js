@@ -12,6 +12,7 @@ router
 .route("/search")
 .get( wrapAsync(listingController.search));
 
+
 router
   .route("/")
   .get( wrapAsync(listingController.index))
