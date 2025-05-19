@@ -11,7 +11,8 @@ const storage = new CloudinaryStorage ({
     cloudinary: cloudinary,
     params: {
         folder: 'liva_DEV',
-        allowedFormat: ["png", 'jpg' ,'jpeg'],
+        allowed_formats: ["png", 'jpg' ,'jpeg'],
+         transformation: [{ width: 800, height: 600, crop: 'limit' }] ,
     },
 });
 
