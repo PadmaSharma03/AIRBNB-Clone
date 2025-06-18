@@ -6,23 +6,27 @@ const Listing = require("../models/listing");
 //   };
 module.exports.search = async (req, res) => {
   try {
-    const { country } = req.query;
-    if(!query) {
-      return res.status(400).json({message: "Search query is required"});
+    const { query } = req.query;
+
+    if (!query) {
+      return res.status(400).json({ message: "Search query is required" });
     }
 
     const listing = await Listing.find({
       $or: [
-        {country: { $regex:query, $options : "i"}},
-        {title: { $regex:query, $options : "i"}},
+        { country: { $regex: query, $options: "i" } },
+        { title: { $regex: query, $options: "i" } },
       ],
     });
-    return res.status(200).json(listing);
+
+   // return res.status(200).json(listing);
+    res.render("listings/index.ejs", { allListings:listing });
   } catch (error) {
-    console.error("Search error:",error);
-    return res.status(500).json({ message: "Internal server error"});
+    console.error("Search error:", error);
+    return res.status(500).json({ message: "Internal server error" });
   }
-}
+};
+
 
   module.exports.index = async (req, res) => {
     const { category } = req.query;

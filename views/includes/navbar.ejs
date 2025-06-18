@@ -39,13 +39,19 @@
           <a class="nav-link" href="/Listings">Liva</a>
         </div>
 
-        <div class="navbar-nav ms-auto">
-          <form class="d-flex" role="search" method="get" action="/Listings/search/?query=" >
-            <input  class="form-control me-2 search-input" type="search" placeholder="Search destinations" id="searchInput" >
-            <button class="btn search-btn" type="submit" id="searchButton" >
-              <i class="fa-solid fa-magnifying-glass"></i>Search</button>
-          </form>
-        </div>
+       <div class="navbar-nav ms-auto">
+  <form class="d-flex" role="search" method="get" action="/Listings/search">
+    <input class="form-control me-2 search-input" 
+           type="search" 
+           name="query" 
+           placeholder="Search destinations" 
+           id="searchInput">
+    <button class="btn search-btn" type="submit" id="searchButton">
+      <i class="fa-solid fa-magnifying-glass"></i> Search
+    </button>
+  </form>
+</div>
+
 
         <div class="navbar-nav ms-auto">
           <a class="nav-link" href="/Listings/new">Airbnb Your home</a>
