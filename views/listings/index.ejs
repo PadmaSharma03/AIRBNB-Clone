@@ -115,19 +115,14 @@
           <img src="<%= listing.image.url %>" class="card-img-top" alt="listing_image" style="height: 20rem;">
           <div class="card-body">
             <h5 class="card-title"><%= listing.title %></h5>
-            <p class="card-text"><%= listing.country %></p>
+            <p class="card-text"><%= listing.price %> /night</p>
           </div>
         </div>
       </a>
     <% } %>
   <% } %>
 </div>
-
-
-
-    
-  
-   
+ 
 <script>
    function filterCategory(category) {
         // Redirect to the URL with the selected category
